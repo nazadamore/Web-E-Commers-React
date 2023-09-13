@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/preentrega1-Damore-react/build/static/css/main.472c28df.css",
+    "main.js": "/preentrega1-Damore-react/build/static/js/main.480ce7b0.js",
+    "static/js/787.da3cb16f.chunk.js": "/preentrega1-Damore-react/build/static/js/787.da3cb16f.chunk.js",
+    "index.html": "/preentrega1-Damore-react/build/index.html",
+    "main.472c28df.css.map": "/preentrega1-Damore-react/build/static/css/main.472c28df.css.map",
+    "main.480ce7b0.js.map": "/preentrega1-Damore-react/build/static/js/main.480ce7b0.js.map",
+    "787.da3cb16f.chunk.js.map": "/preentrega1-Damore-react/build/static/js/787.da3cb16f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.472c28df.css",
+    "static/js/main.480ce7b0.js"
+  ]
+}

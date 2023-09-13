@@ -1,0 +1,32 @@
+.prod-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.productos{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.productos .cards{
+    border: 1px black solid;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    width: 20%;
+    color: aliceblue;
+    background-color: #282c34;
+}
+.titulo{
+    text-align: center;
+    color: rgb(51, 62, 70);
+}
+.productos .cards img{
+    max-width: 100%;
+    height: 30vh;
+    border-radius: 10px;
+}

@@ -1,0 +1,37 @@
+.header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.navBar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .navBar nav {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.header .navBar nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+.header .navBar nav a:hover {
+    color: rgb(206, 76, 76);
+}
+.header .navBar .div-carro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(179, 177, 177);
+    gap: 10px;
+}
