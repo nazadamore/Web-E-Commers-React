@@ -1,12 +1,19 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import "./estilos-cards.css"
+import { NavLink } from 'react-router-dom';
 
-export default function Cards({productito}) {
+
+export default function Cards({products}) {
+
     return (
         <div className='cards'>
-            <img src={productito.imagen}/>
-            <h4> {productito.prod} </h4>
-            <h5> {productito.marca} </h5>
-            <p> {productito.precio} </p>
+            <img src={products.imagen} alt="Imagen del producto"/>
+            <h4> {products.prod} </h4>
+            <h5> {products.marca} </h5>
+            <p> {products.precio} </p>
+            <NavLink to={`/item/${products.id}`} className="detalle" >Detalle del producto</NavLink>
+
         </div>
     )
 }
+

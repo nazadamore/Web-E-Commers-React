@@ -1,10 +1,7 @@
 .header {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    background-color: #282c34;
+    font-size: calc(10px + 2vmin);
+    padding: 10px;
 }
 .navBar {
     width: 100%;
@@ -16,16 +13,21 @@
     width: 50%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
-.header .navBar nav a{
+
+.header .navBar nav li{
+    list-style: none;
+    margin-right: 20px;
+}
+.header .navBar nav li a{
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-weight: bold;
     transition: color 0.3s;
     cursor: pointer;
 }
-.header .navBar nav a:hover {
+.header .navBar nav li a:hover {
     color: rgb(206, 76, 76);
 }
 .header .navBar .div-carro{
@@ -34,4 +36,7 @@
     align-items: center;
     color: rgb(179, 177, 177);
     gap: 10px;
+}
+.categorias{
+    font-size: 17px;
 }

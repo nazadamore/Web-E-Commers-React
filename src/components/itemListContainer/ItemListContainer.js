@@ -1,37 +1,41 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Cards from './Cards'
 import "./estilos-cards.css"
+import data from '../../data/data.json'
+import { useParams } from 'react-router-dom'
 
 export default function ItemListContainer() {
 
-    const productos =[
-        {
-            imagen: "https://http2.mlstatic.com/D_NQ_NP_755977-MLA47780164967_102021-V.webp",
-            prod: "Iphone 13 PRO MAX 256gb",
-            marca: "Iphone",
-            precio: 900
-        },
-        {
-            imagen: "https://http2.mlstatic.com/D_NQ_NP_654151-MLA53448775145_012023-V.webp",
-            prod: "Samsung S23 128gb",
-            marca: "Samsung",
-            precio: 600
-        },
-        {
-            imagen: "https://http2.mlstatic.com/D_NQ_NP_683252-MLA43874063973_102020-V.webp",
-            prod: "POCO X3 PRO 256gb",
-            marca: "Xiaomi",
-            precio: 400
-        }
-    ]
+    const [productos, setProductos] = useState([])
+    const categoria = useParams().categoria
+
+
+    const pedirProductos = () => {
+        return new Promise((resolve, reject) => {
+            resolve(data)
+        })
+    }
+
+    useEffect(() => {
+        pedirProductos()
+            .then((res) => {
+                if (categoria) {
+                    setProductos( res.filter((prod) => prod.categoria === categoria) )
+                } else {
+                    setProductos(res)
+                }
+            })
+    }, [categoria])
 
     return (
         <div className='prod-container'>
             <h1 className='titulo'>PRODUCTOS</h1>
             <div className='productos'>
-                {productos.map((elm) => {
-                    return <Cards productito={elm}/>
-                })}
+                {productos.length > 0 &&
+                    productos.map((elm, i) => {
+                        return <Cards key={i} products={elm} />
+                    })
+                }
             </div>
         </div>
     )

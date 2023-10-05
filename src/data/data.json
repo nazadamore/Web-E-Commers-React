@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_755977-MLA47780164967_102021-V.webp",
+        "prod": "Iphone 13 PRO MAX 256gb",
+        "marca": "Iphone",
+        "precio": 900,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio perferendis tenetur voluptatum. Aliquid tenetur omnis ",
+        "categoria": "iphone"
+    },
+    {
+        "id": 2,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_654151-MLA53448775145_012023-V.webp",
+        "prod": "Samsung S23 128gb",
+        "marca": "Samsung",
+        "precio": 877,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio perferendis tenetur voluptatum. Aliquid tenetur omnis ",
+        "categoria": "samsung"
+    },
+    {
+        "id": 3,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_683252-MLA43874063973_102020-V.webp",
+        "prod": "POCO X3 PRO 256gb",
+        "marca": "Xiaomi",
+        "precio": 483,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio perferendis tenetur voluptatum. Aliquid tenetur omnis ",
+        "categoria": "xioami"
+    },
+    {
+        "id": 4,
+        "imagen": "https://www.optus.com.au/content/dam/optus/images/shop/mobile/phones/apple/iphone-15-pro/carousel/SD-PDP-01-iphone-15-pro-natural-titanium-front-back.jpg/renditions/version-1694743521240/492.jpeg",
+        "prod": "Iphone 15 PRO 518gb",
+        "marca": "Iphone",
+        "precio": 1500,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio perferendis tenetur voluptatum. Aliquid tenetur omnis ",
+        "categoria": "iphone"
+    }
+    
+]
