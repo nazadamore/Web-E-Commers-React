@@ -2,31 +2,37 @@ import './App.css';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import NavBar from './components/header/NavBar';
 import ItemListContainer from './components/itemListContainer/ItemListContainer';
-import { BrowserRouter, Route, Routes} from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { ContextColection } from './context/ContextColection';
+import { useContext } from 'react';
 
 function App() {
+
+
   return (
-    <div className="App">
+    <ContextColection.Provider>
+      <div className="App">
 
-      <BrowserRouter>
+        <BrowserRouter>
 
-      <NavBar/>
+          <NavBar />
 
-      <Routes>
+          <Routes>
 
-      <Route exact path='/' element={<ItemListContainer/>}
-      />
-      <Route path='/item/:id' element={<ItemDetailContainer/>}
-      />
-      <Route path='/productos' element={<ItemListContainer/>}
-      />
-      <Route path="/productos/:categoria" element={<ItemListContainer />} 
-      />
+            <Route exact path='/' element={<ItemListContainer />}
+            />
+            <Route path='/item/:id' element={<ItemDetailContainer />}
+            />
+            <Route path='/productos' element={<ItemListContainer />}
+            />
+            <Route path="/productos/:categoria" element={<ItemListContainer />}
+            />
 
-      </Routes>
+          </Routes>
 
-      </BrowserRouter>
-    </div>
+        </BrowserRouter>
+      </div>
+    </ContextColection.Provider>
   );
 }
 
