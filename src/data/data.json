@@ -5,8 +5,9 @@
         "prod": "Iphone 13 PRO MAX 256gb",
         "marca": "Iphone",
         "precio": 900,
-        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio perferendis tenetur voluptatum. Aliquid tenetur omnis ",
-        "categoria": "iphone"
+        "descripcion": "La pantalla del iPhone 13 Pro Max tiene esquinas redondeadas que rematan el diseño curvo del dispositivo. ",
+        "categoria": "iphone",
+        "stock": 10 
     },
     {
         "id": 2,
@@ -14,8 +15,9 @@
         "prod": "Samsung S23 128gb",
         "marca": "Samsung",
         "precio": 877,
-        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio perferendis tenetur voluptatum. Aliquid tenetur omnis ",
-        "categoria": "samsung"
+        "descripcion": "El Samsung Galaxy S23 y sus cámaras traseras te ayudarán a darte la mayor diversidad a tus imágenes",
+        "categoria": "samsung",
+        "stock": 10
     },
     {
         "id": 3,
@@ -23,8 +25,9 @@
         "prod": "POCO X3 PRO 256gb",
         "marca": "Xiaomi",
         "precio": 483,
-        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio perferendis tenetur voluptatum. Aliquid tenetur omnis ",
-        "categoria": "xioami"
+        "descripcion": "Para el POCO X3 Pro se ha elegido una pantalla de 6,67 pulgadas con resolución FullHD+ y tasa de refresco máxima de 120 Hz",
+        "categoria": "xioami",
+        "stock": 10
     },
     {
         "id": 4,
@@ -32,8 +35,9 @@
         "prod": "Iphone 15 PRO 518gb",
         "marca": "Iphone",
         "precio": 1500,
-        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio perferendis tenetur voluptatum. Aliquid tenetur omnis ",
-        "categoria": "iphone"
+        "descripcion": "La pantalla del iPhone 15 Pro tiene esquinas redondeadas que siguen el elegante diseño curvo del teléfono.",
+        "categoria": "iphone",
+        "stock": 10
     }
     
 ]

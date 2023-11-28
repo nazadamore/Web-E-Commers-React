@@ -1,11 +1,18 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { BiCart } from "react-icons/bi";
+import { Link } from 'react-router-dom';
+import { ContextColection } from '../../context/ContextColection';
 
-export default function Carruti({carrito}) {
+export default function CartWidget() {
+
+    const {cantidadEnCarrito} = useContext(ContextColection)
+
     return (
-        <div className='div-carro'> 
+        <Link to="/carrito">
+        <div className='div-carro'>
             <BiCart/>
-            <p>{carrito}</p>
-        </div>
+            <p>{cantidadEnCarrito()}</p>
+            </div>
+        </Link>
     )
 }

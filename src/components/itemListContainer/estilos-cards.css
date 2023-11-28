@@ -1,9 +1,13 @@
+
 .prod-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 90vh;
 }
-
+.detail-container{
+    height: 100%;
+}
 .productos {
     width: 100%;
     display: flex;
@@ -22,6 +26,7 @@
     width: 20%;
     color: aliceblue;
     background-color: #282c34;
+    
 }
 
 .titulo {
@@ -53,4 +58,81 @@
 }
 .productos .cards p {
     text-align: center;
+}
+
+.item-count{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.item-count button {
+    background-color: rgb(112, 112, 185);
+    border: 0;
+    width: 2rem;
+    height: 2rem;
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1;
+    border: 2px solid rgb(112, 112, 185);
+    transition: .2;
+}
+
+.item-count button:hover, .boton:hover, .boton1:hover{
+    background-color: white;
+    color: black;
+}
+
+.boton{
+    width: auto;
+    height: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: rgb(112, 112, 185);
+    border: 2px solid rgb(112, 112, 185);
+    border-radius: 0.5rem;
+    color: white;
+    cursor: pointer;
+}
+.boton1{
+    width: auto;
+    height: auto;
+    margin-top: .5rem;
+    padding: .5rem;
+    background-color: rgb(112, 112, 185);
+    border: 2px solid rgb(112, 112, 185);
+    border-radius: 0.5rem;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.container-form{
+    padding: 5%;
+    height: 70vh;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: start;
+}
+.formulario input{
+    padding: .5rem;
+    width: 18rem;
+    border-radius: .5rem;
+    border: 2px solid rgb(0, 0, 0);
+}
+.formulario input:focus{
+    outline: 0;
+    border: 2px solid rgb(136, 136, 212);
+}
+.spinner{
+    margin-top: 50px;
 }

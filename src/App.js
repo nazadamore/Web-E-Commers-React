@@ -3,16 +3,18 @@ import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailCont
 import NavBar from './components/header/NavBar';
 import ItemListContainer from './components/itemListContainer/ItemListContainer';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { ContextColection } from './context/ContextColection';
-import { useContext } from 'react';
+import Nosotros from './components/Nosotros/Nosotros';
+import Contacto from './components/Contacto/Contacto';
+import { CartProvider } from './context/ContextColection';
+import Carrito from './components/Carrito/Carrito';
+import Checkout from './Checkout/Checkout';
 
 function App() {
 
-
+  
   return (
-    <ContextColection.Provider>
-      <div className="App">
-
+    <div className="App">
+      <CartProvider>
         <BrowserRouter>
 
           <NavBar />
@@ -27,12 +29,20 @@ function App() {
             />
             <Route path="/productos/:categoria" element={<ItemListContainer />}
             />
+            <Route path="/nosotros" element={<Nosotros />}
+            />
+            <Route path="/contacto" element={<Contacto />}
+            />
+            <Route path='/carrito' element={<Carrito/>}
+            />
+            <Route path='/checkout' element={<Checkout/>}
+            />
 
           </Routes>
 
         </BrowserRouter>
-      </div>
-    </ContextColection.Provider>
+      </CartProvider>
+    </div>
   );
 }
 
