@@ -7,7 +7,7 @@ export default function Carrito() {
 
     const { carrito, precioTotal, vaciarCarrito } = useContext(ContextColection)
 
-    const handleVaciar = () => {
+    const handleVaciar = () => { 
         vaciarCarrito()
     }
 
