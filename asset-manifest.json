@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/preentrega1-Damore-react/static/css/main.8590bf1a.css",
-    "main.js": "/preentrega1-Damore-react/static/js/main.e9fd2326.js",
-    "static/js/787.da3cb16f.chunk.js": "/preentrega1-Damore-react/static/js/787.da3cb16f.chunk.js",
-    "index.html": "/preentrega1-Damore-react/index.html",
-    "main.8590bf1a.css.map": "/preentrega1-Damore-react/static/css/main.8590bf1a.css.map",
-    "main.e9fd2326.js.map": "/preentrega1-Damore-react/static/js/main.e9fd2326.js.map",
-    "787.da3cb16f.chunk.js.map": "/preentrega1-Damore-react/static/js/787.da3cb16f.chunk.js.map"
+    "main.css": "/nazadamore/Web-E-Commers-React.git/static/css/main.8590bf1a.css",
+    "main.js": "/nazadamore/Web-E-Commers-React.git/static/js/main.470dc862.js",
+    "static/js/787.da3cb16f.chunk.js": "/nazadamore/Web-E-Commers-React.git/static/js/787.da3cb16f.chunk.js",
+    "index.html": "/nazadamore/Web-E-Commers-React.git/index.html",
+    "main.8590bf1a.css.map": "/nazadamore/Web-E-Commers-React.git/static/css/main.8590bf1a.css.map",
+    "main.470dc862.js.map": "/nazadamore/Web-E-Commers-React.git/static/js/main.470dc862.js.map",
+    "787.da3cb16f.chunk.js.map": "/nazadamore/Web-E-Commers-React.git/static/js/787.da3cb16f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8590bf1a.css",
-    "static/js/main.e9fd2326.js"
+    "static/js/main.470dc862.js"
   ]
 }
