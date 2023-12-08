@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/preentrega1-Damore-react/static/css/main.8590bf1a.css",
-    "main.js": "/preentrega1-Damore-react/static/js/main.24f60d3b.js",
+    "main.js": "/preentrega1-Damore-react/static/js/main.e9fd2326.js",
     "static/js/787.da3cb16f.chunk.js": "/preentrega1-Damore-react/static/js/787.da3cb16f.chunk.js",
     "index.html": "/preentrega1-Damore-react/index.html",
     "main.8590bf1a.css.map": "/preentrega1-Damore-react/static/css/main.8590bf1a.css.map",
-    "main.24f60d3b.js.map": "/preentrega1-Damore-react/static/js/main.24f60d3b.js.map",
+    "main.e9fd2326.js.map": "/preentrega1-Damore-react/static/js/main.e9fd2326.js.map",
     "787.da3cb16f.chunk.js.map": "/preentrega1-Damore-react/static/js/787.da3cb16f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8590bf1a.css",
-    "static/js/main.24f60d3b.js"
+    "static/js/main.e9fd2326.js"
   ]
 }
